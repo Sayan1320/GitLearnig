@@ -7,7 +7,7 @@ public class Account {
 	private double currentBalance = 0.0;
 	private double savingBalance = 0.0;
 	
-	 Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 	DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 	
 	public int setCustomerNumber(int customerNumber) {
@@ -58,7 +58,7 @@ public class Account {
 		return savingBalance;
 	}
 	
-	//Bigger function used in option menu class
+	
 	
 	public void getCurrentWithdrawInput() {
 		System.out.println("Current Account Balance: " + moneyFormat.format(currentBalance));
